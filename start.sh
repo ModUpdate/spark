@@ -1,4 +1,3 @@
-
 echo "  _     _     _     _     _     _     _     _     _  "
 sleep 0.4
 echo " / \   / \   / \   / \   / \   / \   / \   / \   / \ "
@@ -209,23 +208,23 @@ rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat
 rm -rf /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
 
 echo "Restoring original libs & dat"
-cp -r /data/data/spark/ori/libgcloud.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libTDataMaster.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libIMSDK.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libBugly.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libtersafe.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libUE4.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libgcloud.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libTDataMaster.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libIMSDK.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libBugly.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libtersafe.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libUE4.so /data/data/com.tencent.ig/lib/
 
-cp -R /data/data/spark/ori/comm.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/config3.xml /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/gp4.ano.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/mn_cache.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/mrpcs.data /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/tss.ano.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/tss_base.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/tss_cfg2.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/tss_emu_c2.dat /data/data/com.tencent.ig/files/tss_tmp
-cp -R /data/data/spark/ori/tssmua.zip /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/comm.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/config3.xml /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/gp4.ano.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/mn_cache.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/mrpcs.data /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/tss.ano.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/tss_base.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/tss_cfg2.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/tss_emu_c2.dat /data/data/com.tencent.ig/files/tss_tmp
+cp -R /storage/emulated/0/.ori/tssmua.zip /data/data/com.tencent.ig/files/tss_tmp
 echo " Restoring Origibal lib permissions"
 chmod -R 755 /data/data/com.tencent.ig/lib/libhelpshiftlistener.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libUE4.so
