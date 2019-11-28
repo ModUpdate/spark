@@ -185,7 +185,7 @@ cleanlogs
 if [ ! $(pidof $PACKAGE) ]; then
 break
 fi
-sleep 10
+sleep 6
 done
 printf "\n\n";
 printf "The game is dead \n";
@@ -256,7 +256,9 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
 rm -rf /data/data/com.tencent.ig/app_bugly
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
-echo "------------------------------------------------------------------------------------------------------"
+sleep 1
+echo "stoping gg hw.."
+am force-stop com.vicchkhrjd.hrpl
 echo "deleting files"
 rm -r /storage/emulated/0/.spark
 echo ""
