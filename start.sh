@@ -256,9 +256,7 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
 rm -rf /data/data/com.tencent.ig/app_bugly
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
-sleep 1
-echo "stoping gg hw.."
-am force-stop com.vicchkhrjd.hrpl
+
 echo "deleting files"
 rm -r /storage/emulated/0/.spark
 echo ""
