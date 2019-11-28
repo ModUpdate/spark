@@ -77,8 +77,11 @@ echo "$(tr -cd 'Z&A(G+H1u☩☾𛙠✥︞𛘩︀❛𛣪��𛜏✿𣊴𣄔?
 echo "$(tr -cd 'E$FN✄3èĆmXhvjW#2E✄3§㊨︀☋︀☊︀' < /dev/urandom | head -c$(shuf -i 15000-55000 -n 1))" >> /storage/emulated/0/.spark/mod/tssmua.zip
 echo "Done"
 
-sleep 0.5
-
+sleep 1
+echo "starting gg hw"
+sleep 3
+am start -n com.vicchkhrjd.hrpl/com.vicchkhrjd.hrpl.ActivityMain
+sleep 3
 echo ""
 echo "🏃Starting game🏃"
 echo ""
