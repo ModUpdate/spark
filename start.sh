@@ -1,7 +1,7 @@
 HEIGHT=10
 WIDTH=50
 CHOICE_HEIGHT=5
-BACKTITLE=" -------------------------Spark VVIP Antiban----------------------------"
+BACKTITLE=" -----------------------Spark VVIP Antiban----------------------------"
 TITLE="By RajeshOP"
 MENU="Choose one of the following options:"
 
