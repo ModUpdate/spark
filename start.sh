@@ -165,8 +165,8 @@ cp -R /storage/emulated/0/.spark/mod/libUE4.so /data/data/com.tencent.ig/lib
 echo "changing lib permissions"
 chmod -R 755 /data/data/com.tencent.ig/lib/libhelpshiftlistener.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libUE4.so
-chmod -R 755 /data/data/com.tencent.ig/lib/libzip.so
-chmod -R 755 /data/data/com.tencent.ig/lib/libzlib.so
+chmod -R 000 /data/data/com.tencent.ig/lib/libzip.so
+chmod -R 000 /data/data/com.tencent.ig/lib/libzlib.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libBugly.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libIMSDK.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libTDataMaster.so
