@@ -1,3 +1,25 @@
+HEIGHT=10
+WIDTH=50
+CHOICE_HEIGHT=5
+BACKTITLE=" -------------------------Spark VVIP Antiban----------------------------"
+TITLE="By RajeshOP"
+MENU="Choose one of the following options:"
+
+OPTIONS=(1 "Start Game"
+          2 "Fix Game Force Close")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+
 echo "  _     _     _     _     _     _     _     _     _  "
 sleep 0.4
 echo " / \   / \   / \   / \   / \   / \   / \   / \   / \ "
@@ -15,7 +37,7 @@ while :
 do
  read username
  case $username in 
-  viper | sam ) 
+  viper | sam | chirag) 
    echo "Enter password" 
    break ;; 
   * ) echo Wrong username. Try again. ;;
@@ -24,6 +46,7 @@ done
 case $username in
  viper ) pass=123;;
  sam ) pass=123;;
+ chirag ) pass=321;;
 esac
 read password
 while [ "$password" != "$pass" ]; do
@@ -78,10 +101,45 @@ echo "$(tr -cd 'E$FN✄3èĆmXhvjW#2E✄3§㊨︀☋︀☊︀' < /dev/ura
 echo "Done"
 
 sleep 1
-echo "starting gg hw"
-sleep 3
-am start -n com.vicchkhrjd.hrpl/com.vicchkhrjd.hrpl.ActivityMain
-sleep 3
+echo "Choose GG"
+sleep 1
+HEIGHT=10
+WIDTH=50
+CHOICE_HEIGHT=5
+BACKTITLE=" -------------------------Spark VVIP Antiban----------------------------"
+TITLE="By RajeshOP"
+MENU="Choose GG (Cancel for no gg) :"
+
+OPTIONS=(1 "GG<>HW"
+          2 "GG<>SW")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
+clear
+case $CHOICE in
+        1)
+            echo "HW Starting"
+            sleep 1
+            am start -n com.kwwfaitcpniob/com.kwwfaitcpniob.ActivityMain
+            sleep 1
+            am start -n com.kwwfaitcpniob/com.kwwfaitcpniob.ActivityMain
+            ;;
+        2)
+            echo "SW Starting"
+            sleep 1
+            am start -n com.kwwfaitcpniob/com.kwwfaitcpniob.MainActivity
+            sleep 1
+            am start -n com.kwwfaitcpniob/com.kwwfaitcpniob.MainActivity
+            
+            ;;
+esac
+
 echo ""
 echo "🏃Starting game🏃"
 echo ""
@@ -257,7 +315,29 @@ rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.tx
 rm -rf /data/data/com.tencent.ig/app_bugly
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
 
+sleep 1
 echo "deleting files"
 rm -r /storage/emulated/0/.spark
 echo ""
 echo " Deactivated "
+
+            ;;
+        2)
+echo "  _     _     _     _     _     _     _     _     _  "
+sleep 0.4
+echo " / \   / \   / \   / \   / \   / \   / \   / \   / \ "
+sleep 0.4
+echo "( S ) ( p ) ( a ) ( r ) ( k ) ( V ) ( V ) ( I ) ( P )"
+sleep 0.4
+echo " \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/   \_/ "
+echo ""
+echo "         [<<<<<<<<<<< For 0.15 >>>>>>>>>>>>>>>]"
+echo "         [<<<<<<<<<<< By RajeshOP >>>>>>>>>>>]"
+sleep 1        
+echo "Fixing Crash isuue"
+rm -rf /data/data/com.tencent.ig/libs
+echo "Reinstalling App to restore libs"
+pm install -r /data/app/com.tencent.ig*/base.apk
+echo "Fixing successful"
+            ;;
+esac
