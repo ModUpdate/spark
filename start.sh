@@ -70,7 +70,7 @@ echo "🏃Starting game🏃"
 echo ""
 sleep 1
 am start -n com.pubg.krmobile/com.epicgames.ue4.SplashActivity
-sleep 5
+sleep 7
 
 echo "Injecting Modded Libs "
 echo ""
