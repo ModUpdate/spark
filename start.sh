@@ -294,7 +294,7 @@ chmod -R 755 /data/data/com.pubg.krmobile/lib/libxguyardian.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libgcloud.so
 echo ""
 echo ""
-sleep 4
+sleep 45
 echo "Auto"
 sleep 2
 cleanlogs()
