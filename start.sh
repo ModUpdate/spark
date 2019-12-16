@@ -284,13 +284,11 @@ chmod -R 755 /data/data/com.pubg.krmobile/lib/libhelpshiftlistener.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libUE4.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libzip.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libzlib.so
-chmod -R 755 /data/data/com.pubg.krmobile/lib/libtpnsSecurity.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libBugly.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libIMSDK.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libTDataMaster.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libtersafe.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libtprt.so
-chmod -R 755 /data/data/com.pubg.krmobile/lib/libxguyardian.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libgcloud.so
 echo ""
 echo ""
@@ -381,13 +379,11 @@ chmod -R 755 /data/data/com.pubg.krmobile/lib/libhelpshiftlistener.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libUE4.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libzip.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libzlib.so
-chmod -R 755 /data/data/com.pubg.krmobile/lib/libtpnsSecurity.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libBugly.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libIMSDK.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libTDataMaster.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libtersafe.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libtprt.so
-chmod -R 755 /data/data/com.pubg.krmobile/lib/libxguardian.so
 chmod -R 755 /data/data/com.pubg.krmobile/lib/libgcloud.so
 
 echo "Clearing Reporting Files"
